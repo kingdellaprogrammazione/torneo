@@ -16,3 +16,19 @@ jobs:
             git add .           
             git commit -m "add PDF file"           
             git push
+      - name: Install ghostscript
+        run: sudo apt install ghostscript
+      - name: Change ImageMagick security policy
+        run: |
+          DQT='"' 
+          SRC="rights=${DQT}none${DQT} pattern=${DQT}PDF${DQT}"
+          RPL="rights=${DQT}read\|write${DQT} pattern=${DQT}PDF${DQT}"
+          sudo sed -i "s/$SRC/$RPL/" /etc/ImageMagick-6/policy.xml
+      - name: Convert PDF to PNG
+        run: convert -density 900 -background white -alpha off test.pdf -quality 90 test.png
+      - name: Commit and Push new file         
+        run: |           
+            git config user.name "bot"           
+            git add .           
+            git commit -m "add PNG file"           
+            git push
