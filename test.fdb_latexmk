@@ -1,0 +1,16 @@
+# Fdb version 3
+["pdflatex"] 1656183012 "test.tex" "test.pdf" "test" 1656183012
+  "/opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls" 1636758526 20144 8a7de377ae7a11ee924a7499611f5a9d ""
+  "/opt/texlive/texdir/texmf-dist/tex/latex/base/size10.clo" 1636758526 8448 96f18c76bf608a36ee6fbf021ac1dd32 ""
+  "/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1650483921 31067 89623bb5c412243bea4c601866f5e8c1 ""
+  "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
+  "/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1651368158 4410328 ad4c8b228945fed75b2c936885ec50a0 ""
+  "/opt/texlive/texdir/texmf-var/web2c/pdftex/pdflatex.fmt" 1651368200 2827903 9920992e07aadf2e0164d17d13dbd2fc ""
+  "/opt/texlive/texdir/texmf.cnf" 1651368150 555 bd60ff59e4d560b42d96b004436f91d3 ""
+  "test.aux" 1656183012 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "test.tex" 1656183011 64 b4db67e1d03016f11771c57d617afb2c ""
+  (generated)
+  "test.aux"
+  "test.log"
+  "test.pdf"
