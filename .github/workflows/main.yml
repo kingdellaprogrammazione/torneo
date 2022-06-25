@@ -10,3 +10,10 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: test.tex
+      - name: Commit and Push new file         
+        run: |           
+          git config user.name <bot>           
+          git config user.email <?>           
+          git add .           
+          git commit -m "add PDF file"           
+          git push
