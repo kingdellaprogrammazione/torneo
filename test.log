@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.1)  25 JUN 2022 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.1)  25 JUN 2022 21:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -98,19 +98,20 @@ Preview: Tightpage 0 0 0 0
 [1{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./test.aux) ) 
 Here is how much of TeX's memory you used:
- 1186 strings out of 478305
- 22282 string characters out of 5847251
+ 1189 strings out of 478305
+ 22318 string characters out of 5847251
  308214 words of memory out of 5000000
- 19397 multiletter control sequences out of 15000+600000
- 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 19399 multiletter control sequences out of 15000+600000
+ 469594 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,1n,71p,183b,47s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r10.pfb>
-Output written on test.pdf (1 page, 11600 bytes).
+ 55i,2n,71p,183b,153s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/cm-super/cm-super
+-ts1.enc}</opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></opt/texlive/texdir/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on test.pdf (1 page, 20056 bytes).
 PDF statistics:
- 13 PDF objects out of 1000 (max. 8388607)
- 7 compressed objects within 1 object stream
+ 19 PDF objects out of 1000 (max. 8388607)
+ 11 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
